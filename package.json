@@ -1,41 +1,48 @@
 {
-  "name": "academic-pages",
-  "version": "0.8.1.1",
-  "description": "Academic Pages Mistakes Jekyll theme npm build scripts",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/academicpages/academicpages.github.io"
-  },
-  "keywords": [
-    "jekyll",
-    "theme",
-    "minimal"
-  ],
-  "contributors": [
-    "Michael Rose",
-    "Robert Zupko"
-  ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/academicpages/academicpages.github.io/issues"
-  },
-  "homepage": "https://github.com/academicpages/academicpages.github.io",
-  "engines": {
-    "node": ">= 0.10.0"
-  },
+  "name": "my-app",
+  "version": "0.1.0",
+  "homepage": "https://github.com.hsulab/hsulab.github.io",
+  "private": false,
   "dependencies": {
-    "fitvids": "^2.1.1",
-    "jquery": "^3.7.1",
-    "jquery-smooth-scroll": "^2.2.0",
-    "magnific-popup": "^1.2.0"
-  },
-  "devDependencies": {
-    "onchange": "^7.1.0",
-    "uglify-js": "^3.17.4"
+    "@testing-library/dom": "^10.4.1",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.126",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "gh-pages": "^6.3.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "uglify": "uglifyjs node_modules/jquery/dist/jquery.min.js node_modules/fitvids/dist/fitvids.min.js node_modules/magnific-popup/dist/jquery.magnific-popup.min.js node_modules/jquery-smooth-scroll/jquery.smooth-scroll.min.js assets/js/plugins/jquery.greedy-navigation.js assets/js/_main.js -c -m -o assets/js/main.min.js",
-    "watch:js": "onchange \"assets/js/**/*.js\" -e \"assets/js/main.min.js\" -- npm run build:js",
-    "build:js": "npm run uglify"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

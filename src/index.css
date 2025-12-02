@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  background: #0b0e11;
+  color: #e6ffe6;
+  font-family: "JetBrains Mono", "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
