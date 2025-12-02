@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/hsulab.github.io/static/css/main.0fb2775b.css",
-    "main.js": "/hsulab.github.io/static/js/main.51d442c6.js",
-    "static/js/453.117b0875.chunk.js": "/hsulab.github.io/static/js/453.117b0875.chunk.js",
-    "index.html": "/hsulab.github.io/index.html",
-    "main.0fb2775b.css.map": "/hsulab.github.io/static/css/main.0fb2775b.css.map",
-    "main.51d442c6.js.map": "/hsulab.github.io/static/js/main.51d442c6.js.map",
-    "453.117b0875.chunk.js.map": "/hsulab.github.io/static/js/453.117b0875.chunk.js.map"
+    "main.css": "/static/css/main.0fb2775b.css",
+    "main.js": "/static/js/main.3892a2b7.js",
+    "static/js/453.117b0875.chunk.js": "/static/js/453.117b0875.chunk.js",
+    "index.html": "/index.html",
+    "main.0fb2775b.css.map": "/static/css/main.0fb2775b.css.map",
+    "main.3892a2b7.js.map": "/static/js/main.3892a2b7.js.map",
+    "453.117b0875.chunk.js.map": "/static/js/453.117b0875.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0fb2775b.css",
-    "static/js/main.51d442c6.js"
+    "static/js/main.3892a2b7.js"
   ]
 }
